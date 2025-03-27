@@ -26,7 +26,7 @@ for (let id = 0; id < chess960Positions.length; id++) {
     const generatedFen = Chess960StartPositionGenerator.generateFen(id);
     // Extract just the piece placement part of the FEN (before the first space)
     try {
-        assert.strictEqual(generatedFen, generatedFen);
+        assert.strictEqual(generatedFen, expectedFen);
         passedTests++;
     } catch (error) {
         console.error(`Test failed for position ${id}:`);
