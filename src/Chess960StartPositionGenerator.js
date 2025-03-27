@@ -1,8 +1,8 @@
 /**
- * Author: Stefan Haack (https://shaack.com)
- * Date: 2025-03-27
+ * Author and copyright: Stefan Haack (https://shaack.com)
+ * Repository: https://github.com/shaack/chess960-start-position-generator
+ * License: MIT, see file 'LICENSE'
  */
-
 const KRN = ["NNRKR", "NRNKR", "NRKNR", "NRKRN", "RNNKR", "RNKNR", "RNKRN", "RKNNR", "RKNRN", "RKRNN"]
 
 export class Chess960StartPositionGenerator {

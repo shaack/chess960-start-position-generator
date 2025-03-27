@@ -1,8 +1,8 @@
 /**
- * Test for Chess960StartPositionGenerator
- * Tests the generateFen method with all positions from chess960.json
+ * Author and copyright: Stefan Haack (https://shaack.com)
+ * Repository: https://github.com/shaack/chess960-start-position-generator
+ * License: MIT, see file 'LICENSE'
  */
-
 import { Chess960StartPositionGenerator } from '../src/Chess960StartPositionGenerator.js';
 import fs from 'fs';
 import path from 'path';
