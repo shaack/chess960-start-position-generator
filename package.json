@@ -1,6 +1,6 @@
 {
   "name": "chess960-start-position-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generator for Chess960 start positions",
   "type": "module",
   "main": "src/Chess960StartPositionGenerator.js",
